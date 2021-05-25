@@ -3,76 +3,70 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header-container {
-  background-color: #0c7572;
+.body {
+  background: linear-gradient(to left top, #caf1f1bd, #447976f8);
+}
+.header {
+  position: fixed;
   width: 100%;
-  height: 80px;
 }
-.container {
-  display: flex;
-  justify-content: space-between;
+
+.navbar-nav {
+  margin-left: auto;
 }
-.logo {
-  display: flex;
-  max-width: 100px;
-  width: 80px;
-  height: 80px;
+
+.navbar-brand img {
   padding: 2px;
   padding-left: 10px;
-}
-.img-logo {
   border-radius: 10px 30px / 30px 40px;
 }
-.img-logo:hover {
+.navbar {
+  color: azure;
+  background-color: #0c7572;
+}
+.navbar-brand img:hover {
   transform: scale(1.3);
   transition: 3s;
 }
-.title {
-  padding: 20px;
-}
 .nav-item {
-  padding: 15px 3px;
-}
-.nav-link {
-  padding-top: 60px;
-  color: azure;
+  padding: 5px 5px;
   text-transform: uppercase;
 }
-.nav-link:hover {
+.nav-item:hover {
   border-radius: 6px;
   background-color: #034574;
   transition: 3s;
 }
-
-@media (min-width: 380px) {
-  .header-container {
-  }
-  .container {
-  }
-  .logo {
-    display: flex;
-    max-width: 100px;
-    width: 80px;
-    height: 80px;
-    padding: 2px;
-    padding-left: 10px;
-  }
-  .img-logo {
-    border-radius: 10px 30px / 30px 40px;
-  }
-  .title {
-    display: none;
-  }
-  .nav-item {
-    padding: 20px 10px;
-  }
-  .nav-link {
-    color: azure;
-    text-transform: uppercase;
-  }
+a.nav-link {
+  color: azure;
 }
-
-/* --Carousel-- */
+.galerias-container {
+  padding-top: 80px;
+}
+#galerias img {
+  width: 100%;
+  height: 250px;
+}
+#galerias img:hover {
+  border: solid 3px azure;
+  transform: scale(1.25);
+  transition: 3s;
+}
+#galerias .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
+}
+.enlace {
+  color: tomato;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.volver {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+}
 
 /* --footer-- */
 .footer {
@@ -82,6 +76,7 @@
   color: azure;
   font-size: 20px;
   text-align: center;
+  margin-left: 32px;
 }
 .footer__list {
   margin: 10px;
@@ -105,4 +100,5 @@
   color: azure;
   font-size: 15px;
   text-align: center;
+  margin-bottom: 0;
 }
