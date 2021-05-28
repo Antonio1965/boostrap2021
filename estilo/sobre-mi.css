@@ -7,7 +7,6 @@
   background: linear-gradient(to left top, #caf1f1bd, #447976f8);
 }
 .header {
-  position: fixed;
   width: 100%;
 }
 .navbar {

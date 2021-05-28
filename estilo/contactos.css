@@ -6,11 +6,6 @@
 .body {
   background: linear-gradient(to left top, #caf1f1bd, #447976f8);
 }
-.header {
-  position: fixed;
-  width: 100%;
-}
-
 .navbar-nav {
   margin-left: auto;
 }
@@ -51,7 +46,7 @@ a.nav-link {
 .contactos-form {
   background-color: rgba(206, 241, 241, 0.733);
   padding: 20px 60px;
-  border: 0.2px black solid;
+  border: 0.2px azure solid;
   border-radius: 20px;
 }
 h2 {
